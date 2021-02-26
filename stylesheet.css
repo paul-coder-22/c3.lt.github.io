@@ -1,0 +1,88 @@
+body{
+    margin: 0%;
+    background-color: #e49330 !important;
+}
+/* *{
+    border: 1px solid red;
+} */
+.nav-link{
+    border:1px solid white;
+    margin-left: 10px;
+    margin-right:10px;
+}
+#first-div{
+    margin-top: 2%;
+}
+.first-image{
+/*     height: 300px;
+    margin: 10px 15% 10px 5%;
+    float: left; */
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 20px;
+    height: 300px;
+    
+    float: left;
+}
+.first-context{
+    /* height: 300px;
+    margin: 10px 5% 10px 15%;
+    line-height: 200%; */
+    width:100%;
+    line-height: 400%;
+    margin-top: 10px;
+    height: 300px;
+    margin-left: 10px;
+    font-family: cursive;
+}
+/* Second Image */
+.second-image{
+   /*  height: 300px;
+    margin: 20px 5% 10px 15%;
+    float: right; */
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 20px;
+    height: 300px;
+    float: right;
+}
+.second-context{
+  /*   height: 300px;
+    margin: 20px 15% 10px 5%;       
+    line-height: 200%; */
+    width:100%;
+    line-height: 400%;
+    margin-top: 10px;
+    height: 300px;
+    margin-left: 10px;
+    font-family: cursive;
+}
+/*------------- Carosel -------------- */
+.carousel-item{
+    padding: 7% 10%;
+}
+
+/* ---contact uss --- */
+
+
+#footer {
+    padding: 7% 15%;
+    background-color: #fff;
+    align-items: center;
+
+}
+
+.social-ic {
+    margin: 20px 10px !important;
+}
+/* hrrr */
+hr {
+    margin-top: 50px;
+    border-style: none;
+    background-color: white;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+    margin-bottom: 50px;
+}

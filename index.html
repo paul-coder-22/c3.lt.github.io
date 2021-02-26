@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap css-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Css -->
+    <link rel="stylesheet" href="../C3 Experimental Learning/stylesheet.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/fb676f87ae.js" crossorigin="anonymous"></script>
+    <!-- title -->
+    <title>Document</title>
+</head>
+
+
+<body>
+    <!-- Logo -->
+    <nav class="navbar navbar-expand-lg 
+        navbar-dark bg-dark" style="padding-right: 0px; padding-left: 20%;">
+
+
+        <div class="container">
+            <a class="navbar-brand mx-auto" href="#"><img style="border-radius: 70%;"
+                    src="https://thumbs.dreamstime.com/b/head-panther-icon-logo-design-head-panther-icon-logo-design-modern-symbol-strong-dangerous-graphic-140672098.jpg"
+                    width="100" height="60" alt=""></a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+            aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Home<span class="sr-only">(current)</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Item1</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Item2</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Item3</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- image part -->
+    <div>
+        <img class="first-image rounded"
+            src="https://lh3.googleusercontent.com/zZf9mF63IibUQGHhQHnYk_Tm1NQrgFdXpVGDrXINYhiVab_16eRuASwt-HoldRDkscagKKVbungT_YGBfJylXmV30FI=s512"
+            alt="">
+    </div>
+    <div>
+        <p class="first-context rounded">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor veritatis,
+            pariatur obcaecati libero ducimus ratione magni, quod molestiae beatae quibusdam debitis minima consequuntur
+            esse iste, doloremque doloribus maxime vero labore?Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+    </div>
+<hr>
+    <div>
+        <img class="second-image rounded"
+            src="https://lh3.googleusercontent.com/zZf9mF63IibUQGHhQHnYk_Tm1NQrgFdXpVGDrXINYhiVab_16eRuASwt-HoldRDkscagKKVbungT_YGBfJylXmV30FI=s512"" alt="">
+        </div>
+        <div>
+            <p  class=" second-context">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut cum sapiente unde nobis quibusdam qui ea soluta
+        animi. Aliquam ducimus, incidunt vero laudantium asperiores culpa libero sed, exercitationem vel nihil vitae
+        sapiente minus aut explicabo excepturi voluptatibus ipsam animi modi soluta ratione error. Exercitationem, hic.
+        </p>
+    </div>
+
+<hr>
+
+    <!-- Carosel -->
+    <div>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 rounded" style="height: 400px;"
+                        src=" data:image/png;base64,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"
+                        alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" style="height: 400px;"
+                        src="https://cdn.dribbble.com/users/1162077/screenshots/3792792/programmer.png?compress=1&resize=400x300"
+                        alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" style="height: 400px;"
+                        src="https://s3-us-west-2.amazonaws.com/robogarden-new/Articles/upload/blogs/lg-coder-kids.jpg"
+                        alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true" style="margin-top: 50px;"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true" style="margin-top: 50px;"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+<hr>
+
+    <!--     /* ---contact uss --- */ -->
+    <footer id="footer" class="">
+
+        <td>
+            <tr><i class="fab fa-twitter social-ic fa-3x"></i></tr>
+            <tr><i class="fab fa-instagram social-ic fa-3x"></i></tr>
+            <tr><i class="fab fa-facebook-square social-ic fa-3x"></i></tr>
+            <tr><i class="fab fa-reddit-alien social-ic fa-3x"></i></tr>
+            <tr><i class="fas fa-envelope-open-text social-ic fa-3x"></i></tr>
+            <span style="margin-left: 300px;"> <strong>Kironpaul889</strong>@gmail.com</span>
+            <span style="margin-left: 300px;"> <h3>Address</h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, rem.</span>
+
+        </td>
+
+    </footer>
+
+</body>
+
+</html>
